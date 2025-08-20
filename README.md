@@ -19,8 +19,8 @@ Each challenge began with providing the vulnerable binary (very_normal_device.bi
 I've included enough to recreate the environment to test your exploits. I've included the source code for both challenges, however I would highly recommend challenging yourself and trying to reverse engineer the binary as intended, first.  
 
 ## Solutions
-I've included example solutions for each challenge. However, there are variety of ways each challenge can be solved, as they both contained multiple exploitable vulnerabilities. 
+I've included example solutions for each challenge. However, there are variety of ways each challenge can be solved, as they both contain multiple exploitable vulnerabilities. 
 
 ## Usage
 
-I do not consent for any of this material to be used in a training course or anywhere else without my explicit permission. If you see anything contained in this repo somewhere else please report it to chompie1337@gmail.com. 
+I do not consent for any of this material to be used in a training course *or anywhere else* without my explicit permission. If you see anything contained in this repo somewhere else please report it to chompie1337@gmail.com. 
