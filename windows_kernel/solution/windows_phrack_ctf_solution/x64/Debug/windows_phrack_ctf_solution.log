@@ -1,0 +1,10 @@
+﻿  exploit.c
+C:\Users\hi\source\repos\windows_phrack_ctf_solution\windows_phrack_ctf_solution\exploit.c(57,76): warning C4047: 'function': 'DWORD' differs in levels of indirection from 'void *'
+C:\Users\hi\source\repos\windows_phrack_ctf_solution\windows_phrack_ctf_solution\exploit.c(57,76): warning C4024: 'DeviceIoControl': different types for formal and actual parameter 4
+C:\Users\hi\source\repos\windows_phrack_ctf_solution\windows_phrack_ctf_solution\exploit.c(81,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hi\source\repos\windows_phrack_ctf_solution\windows_phrack_ctf_solution\exploit.c(103,27): warning C4013: 'NtFsControlFile' undefined; assuming extern returning int
+C:\Users\hi\source\repos\windows_phrack_ctf_solution\windows_phrack_ctf_solution\exploit.c(113,21): warning C4477: 'wprintf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'NTSTATUS'
+C:\Users\hi\source\repos\windows_phrack_ctf_solution\windows_phrack_ctf_solution\exploit.c(113,21): warning C4313: 'wprintf': '%p' in format string conflicts with argument 1 of type 'NTSTATUS'
+C:\Users\hi\source\repos\windows_phrack_ctf_solution\windows_phrack_ctf_solution\exploit.c(201,26): warning C4047: '=': 'HANDLE' differs in levels of indirection from 'DWORD'
+C:\Users\hi\source\repos\windows_phrack_ctf_solution\windows_phrack_ctf_solution\exploit.c(242,26): warning C4047: '=': 'HANDLE' differs in levels of indirection from 'int'
+  windows_phrack_ctf_solution.vcxproj -> C:\Users\hi\source\repos\windows_phrack_ctf_solution\x64\Debug\windows_phrack_ctf_solution.exe

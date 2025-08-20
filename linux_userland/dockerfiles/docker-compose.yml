@@ -1,0 +1,11 @@
+services:
+  phrack-linux:
+    build: .
+    restart: always
+    ports:
+      - 41414:41414
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+

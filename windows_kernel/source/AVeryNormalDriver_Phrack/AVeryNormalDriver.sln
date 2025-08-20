@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.34408.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AVeryNormalDriver", "AVeryNormalDriver\AVeryNormalDriver.vcxproj", "{48BCD0EF-C936-4203-B592-E166D24457CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48BCD0EF-C936-4203-B592-E166D24457CB}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{48BCD0EF-C936-4203-B592-E166D24457CB}.Debug|ARM64.Build.0 = Debug|ARM64
+		{48BCD0EF-C936-4203-B592-E166D24457CB}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{48BCD0EF-C936-4203-B592-E166D24457CB}.Debug|x64.ActiveCfg = Debug|x64
+		{48BCD0EF-C936-4203-B592-E166D24457CB}.Debug|x64.Build.0 = Debug|x64
+		{48BCD0EF-C936-4203-B592-E166D24457CB}.Debug|x64.Deploy.0 = Debug|x64
+		{48BCD0EF-C936-4203-B592-E166D24457CB}.Release|ARM64.ActiveCfg = Release|ARM64
+		{48BCD0EF-C936-4203-B592-E166D24457CB}.Release|ARM64.Build.0 = Release|ARM64
+		{48BCD0EF-C936-4203-B592-E166D24457CB}.Release|ARM64.Deploy.0 = Release|ARM64
+		{48BCD0EF-C936-4203-B592-E166D24457CB}.Release|x64.ActiveCfg = Release|x64
+		{48BCD0EF-C936-4203-B592-E166D24457CB}.Release|x64.Build.0 = Release|x64
+		{48BCD0EF-C936-4203-B592-E166D24457CB}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3446BAE1-3638-4074-8675-3E910F6D42E5}
+	EndGlobalSection
+EndGlobal

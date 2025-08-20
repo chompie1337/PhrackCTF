@@ -1,0 +1,23 @@
+﻿  Building 'AVeryNormalDriver' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Debug\AVeryNormalDriver.inf
+  Stamping [Version] section with DriverVer=03/31/2025,17.32.28.536
+C:\Users\freshcc\source\repos\AVeryNormalDriver\AVeryNormalDriver\AVeryNormalDriver.inf(28-28): warning 2083: Section [standard.ntamd64] not referenced or used.
+  AVeryNormalDriver.c
+  AVeryNormalDriver.vcxproj -> C:\Users\freshcc\source\repos\AVeryNormalDriver\x64\Debug\AVeryNormalDriver.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\freshcc\source\repos\AVeryNormalDriver\x64\Debug\AVeryNormalDriver.sys
+  
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\freshcc\source\repos\AVeryNormalDriver\x64\Debug\AVeryNormalDriver\averynormaldriver.cat
+  Done Adding Additional Store
+  Successfully signed: C:\Users\freshcc\source\repos\AVeryNormalDriver\x64\Debug\AVeryNormalDriver\averynormaldriver.cat
+  
