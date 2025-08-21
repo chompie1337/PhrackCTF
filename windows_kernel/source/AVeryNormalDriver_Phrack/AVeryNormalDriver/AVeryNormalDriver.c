@@ -258,6 +258,8 @@ NTSTATUS VndCreateUserMapping(PDEVICE_OBJECT pDeviceObject, PIRP pIrp)
 	pVndUserProcess = pIrp->AssociatedIrp.SystemBuffer;
 	pSharedMapData = pVndUserProcess->pSharedMapData;
 
+	pMdl = IoAllocateMdl(pSharedMapData, PAGE_SIZE, FALSE, FALSE, NULL);
+
 	if (NULL == pMdl)
 	{
 		status = STATUS_CANNOT_MAKE;
@@ -267,7 +269,6 @@ NTSTATUS VndCreateUserMapping(PDEVICE_OBJECT pDeviceObject, PIRP pIrp)
 	if (NULL != pVndProcess->pSharedMapMdl)
 	{
 		MmUnlockPages(pVndProcess->pSharedMapMdl);
-		pMdl = IoAllocateMdl(pSharedMapData, PAGE_SIZE, FALSE, FALSE, NULL);
 		IoFreeMdl(pVndProcess->pSharedMapMdl);
 	}
 
